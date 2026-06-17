@@ -1,0 +1,30 @@
+[2026-06-17 15:26:42] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 185.220.101.4 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:26:53] [ALERT: BRUTE FORCE] [SEVERITY: HIGH] SRC: 185.220.101.99 - Repeated connection attempts (11 counts) to 192.168.1.1 on service HTTP in 10 seconds.
+[2026-06-17 15:26:53] [ALERT: SYN FLOOD] [SEVERITY: HIGH] SRC: 185.220.101.99 - SYN flood attempt. Source IP generated 31 SYN requests in 5 seconds.
+[2026-06-17 15:26:57] [ALERT: ICMP FLOOD] [SEVERITY: MEDIUM] SRC: 192.168.1.15 - ICMP flood attempt. Source IP generated 21 ICMP requests in 5 seconds.
+[2026-06-17 15:27:05] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 10.0.0.12 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:27:28] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 192.168.1.10 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:27:36] [ALERT: ICMP FLOOD] [SEVERITY: MEDIUM] SRC: 8.8.8.8 - ICMP flood attempt. Source IP generated 21 ICMP requests in 5 seconds.
+[2026-06-17 15:27:51] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 192.168.1.10 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:28:02] [ALERT: BRUTE FORCE] [SEVERITY: HIGH] SRC: 185.220.101.99 - Repeated connection attempts (11 counts) to 192.168.1.100 on service HTTP in 10 seconds.
+[2026-06-17 15:28:02] [ALERT: SYN FLOOD] [SEVERITY: HIGH] SRC: 185.220.101.99 - SYN flood attempt. Source IP generated 31 SYN requests in 5 seconds.
+[2026-06-17 15:28:12] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 192.168.1.15 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:28:32] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 192.168.1.15 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:28:47] [ALERT: ICMP FLOOD] [SEVERITY: MEDIUM] SRC: 192.168.1.15 - ICMP flood attempt. Source IP generated 21 ICMP requests in 5 seconds.
+[2026-06-17 15:28:55] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 192.168.1.10 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:29:06] [ALERT: BRUTE FORCE] [SEVERITY: HIGH] SRC: 185.220.101.99 - Repeated connection attempts (11 counts) to 8.8.4.4 on service HTTP in 10 seconds.
+[2026-06-17 15:29:06] [ALERT: SYN FLOOD] [SEVERITY: HIGH] SRC: 185.220.101.99 - SYN flood attempt. Source IP generated 31 SYN requests in 5 seconds.
+[2026-06-17 15:29:17] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 10.0.0.12 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:29:24] [ALERT: ICMP FLOOD] [SEVERITY: MEDIUM] SRC: 192.168.1.15 - ICMP flood attempt. Source IP generated 21 ICMP requests in 5 seconds.
+[2026-06-17 15:29:39] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 10.0.0.4 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:30:01] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 185.220.101.4 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:30:12] [ALERT: BRUTE FORCE] [SEVERITY: HIGH] SRC: 185.220.101.99 - Repeated connection attempts (11 counts) to 8.8.4.4 on service HTTP in 10 seconds.
+[2026-06-17 15:30:12] [ALERT: SYN FLOOD] [SEVERITY: HIGH] SRC: 185.220.101.99 - SYN flood attempt. Source IP generated 31 SYN requests in 5 seconds.
+[2026-06-17 15:30:25] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 8.8.8.8 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:30:39] [ALERT: ICMP FLOOD] [SEVERITY: MEDIUM] SRC: 10.0.0.4 - ICMP flood attempt. Source IP generated 21 ICMP requests in 5 seconds.
+[2026-06-17 15:30:47] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 8.8.8.8 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:31:08] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 10.0.0.12 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.
+[2026-06-17 15:31:16] [ALERT: ICMP FLOOD] [SEVERITY: MEDIUM] SRC: 192.168.1.10 - ICMP flood attempt. Source IP generated 21 ICMP requests in 5 seconds.
+[2026-06-17 15:31:20] [ALERT: BRUTE FORCE] [SEVERITY: HIGH] SRC: 185.220.101.99 - Repeated connection attempts (11 counts) to 8.8.4.4 on service HTTP in 10 seconds.
+[2026-06-17 15:31:20] [ALERT: SYN FLOOD] [SEVERITY: HIGH] SRC: 185.220.101.99 - SYN flood attempt. Source IP generated 31 SYN requests in 5 seconds.
+[2026-06-17 15:31:31] [ALERT: PORT SCAN] [SEVERITY: HIGH] SRC: 8.8.8.8 - Port scan detected. Source IP accessed 16 unique ports in 10 seconds.

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Intrusion Detection System Dashboard</title>
+    <!-- Google Fonts: Inter and Orbitron for cyber style -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Socket.io -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <i class="fa-solid fa-shield-halved logo-icon"></i>
+                <h2>AEGIS<span>IDS</span></h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active" data-target="dashboard-section">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Dashboard</span>
+                    </li>
+                    <li data-target="alerts-section">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <span>Alert Logs</span>
+                    </li>
+                    <li data-target="packets-section">
+                        <i class="fa-solid fa-list"></i>
+                        <span>Packet Logs</span>
+                    </li>
+                    <li data-target="system-section">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>System Status</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="pulse-dot idle" id="global-status-dot"></span>
+                    <span id="global-status-text">System Idle</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="main-header">
+                <div class="header-title">
+                    <h1>SOC Network Guard</h1>
+                    <p>Real-Time Intrusion Detection & Analysis</p>
+                </div>
+                
+                <!-- Interface Controls -->
+                <div class="header-controls">
+                    <div class="interface-selector-wrapper">
+                        <i class="fa-solid fa-ethernet input-icon"></i>
+                        <select id="interface-selector">
+                            <option value="" disabled selected>Select Interface...</option>
+                        </select>
+                    </div>
+                    <button id="btn-toggle-capture" class="btn-control start">
+                        <i class="fa-solid fa-play"></i> Start Capture
+                    </button>
+                </div>
+            </header>
+
+            <!-- Section 1: Main Dashboard -->
+            <section id="dashboard-section" class="tab-content active">
+                <!-- Statistics Metrics Grid -->
+                <div class="metrics-grid">
+                    <div class="metric-card" id="metric-total-packets">
+                        <div class="metric-icon bg-blue">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <div class="metric-data">
+                            <h3>Total Packets</h3>
+                            <p class="metric-value" id="val-total-packets">0</p>
+                        </div>
+                    </div>
+                    
+                    <div class="metric-card" id="metric-total-alerts">
+                        <div class="metric-icon bg-red">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="metric-data">
+                            <h3>Total Alerts</h3>
+                            <p class="metric-value" id="val-total-alerts">0</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card" id="metric-tcp">
+                        <div class="metric-icon bg-cyan">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <div class="metric-data">
+                            <h3>TCP Count</h3>
+                            <p class="metric-value" id="val-tcp-count">0</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card" id="metric-udp">
+                        <div class="metric-icon bg-purple">
+                            <i class="fa-solid fa-circle-dot"></i>
+                        </div>
+                        <div class="metric-data">
+                            <h3>UDP Count</h3>
+                            <p class="metric-value" id="val-udp-count">0</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card" id="metric-icmp">
+                        <div class="metric-icon bg-yellow">
+                            <i class="fa-solid fa-circle-nodes"></i>
+                        </div>
+                        <div class="metric-data">
+                            <h3>ICMP Count</h3>
+                            <p class="metric-value" id="val-icmp-count">0</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Grid -->
+                <div class="charts-row">
+                    <div class="chart-container half-width">
+                        <div class="chart-header">
+                            <h3>Protocol Distribution</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-protocol"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-container half-width">
+                        <div class="chart-header">
+                            <h3>Packet Rate Traffic (Packets/Min)</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-packet-rate"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="charts-row">
+                    <div class="chart-container third-width">
+                        <div class="chart-header">
+                            <h3>Top Source IPs</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-top-sources"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container third-width">
+                        <div class="chart-header">
+                            <h3>Top Destination IPs</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-top-destinations"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container third-width">
+                        <div class="chart-header">
+                            <h3>Alerts Trend</h3>
+                        </div>
+                        <div class="chart-body">
+                            <canvas id="chart-alerts-trend"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Logs Split Row -->
+                <div class="dashboard-split-row">
+                    <!-- Live Alerts Feed -->
+                    <div class="split-col list-col">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-triangle-exclamation color-red"></i> Live IDS Alerts</h3>
+                            <span class="badge badge-red" id="badge-live-alerts-count">0 New</span>
+                        </div>
+                        <div class="live-alerts-feed" id="live-alerts-feed-container">
+                            <div class="no-data-placeholder">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <p>No alerts triggered. System operating within secure parameters.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Live Packet Feed -->
+                    <div class="split-col table-col">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-list-check color-blue"></i> Live Packet Feed</h3>
+                            <div class="header-filter-wrapper">
+                                <span class="badge badge-blue" id="val-packet-rate-ps">0 Pkts/S</span>
+                            </div>
+                        </div>
+                        <div class="table-scroll-container">
+                            <table class="data-table" id="live-packet-table">
+                                <thead>
+                                    <tr>
+                                        <th>Timestamp</th>
+                                        <th>Proto</th>
+                                        <th>Source</th>
+                                        <th>Destination</th>
+                                        <th>Len</th>
+                                        <th>Flags</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="live-packet-tbody">
+                                    <tr class="placeholder-row">
+                                        <td colspan="6" class="text-center">Select an interface and start capture to view packets</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Historical Alert Logs -->
+            <section id="alerts-section" class="tab-content">
+                <div class="section-card">
+                    <div class="section-card-header">
+                        <h2>IDS Security Incident Logs</h2>
+                        <button class="btn-secondary" id="btn-refresh-alerts">
+                            <i class="fa-solid fa-rotate"></i> Refresh Records
+                        </button>
+                    </div>
+                    <div class="table-scroll-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Timestamp</th>
+                                    <th>Alert Type</th>
+                                    <th>Source IP</th>
+                                    <th>Severity</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody id="historical-alerts-tbody">
+                                <tr>
+                                    <td colspan="6" class="text-center">No alerts logged in database.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: Historical Packet Logs -->
+            <section id="packets-section" class="tab-content">
+                <div class="section-card">
+                    <div class="section-card-header">
+                        <h2>Captured Packet Log History</h2>
+                        <button class="btn-secondary" id="btn-refresh-packets">
+                            <i class="fa-solid fa-rotate"></i> Refresh Records
+                        </button>
+                    </div>
+                    <div class="table-scroll-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Timestamp</th>
+                                    <th>Protocol</th>
+                                    <th>Src IP</th>
+                                    <th>Src Port</th>
+                                    <th>Dst IP</th>
+                                    <th>Dst Port</th>
+                                    <th>Length</th>
+                                </tr>
+                            </thead>
+                            <tbody id="historical-packets-tbody">
+                                <tr>
+                                    <td colspan="8" class="text-center">No packets saved in database.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: System Information -->
+            <section id="system-section" class="tab-content">
+                <div class="system-grid">
+                    <div class="system-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Environment Diagnostic</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="diagnostic-item">
+                                <span class="label">Operating System:</span>
+                                <span class="value">Windows Host (Detecting...)</span>
+                            </div>
+                            <div class="diagnostic-item">
+                                <span class="label">Administrator Privileges:</span>
+                                <span class="value badge" id="diag-admin">Checking...</span>
+                            </div>
+                            <div class="diagnostic-item">
+                                <span class="label">Npcap Driver Installed:</span>
+                                <span class="value badge" id="diag-npcap">Checking...</span>
+                            </div>
+                            <div class="diagnostic-item">
+                                <span class="label">Target Engine URL:</span>
+                                <span class="value highlight">http://localhost:5000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="system-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-circle-nodes"></i> Detection Engine Signature Set</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="signature-list">
+                                <li>
+                                    <strong>Port Scan Signature:</strong>
+                                    <p>Triggers when one source IP accesses > 15 unique destination ports within 10 seconds.</p>
+                                </li>
+                                <li>
+                                    <strong>SYN Flood Signature:</strong>
+                                    <p>Triggers when excessive TCP SYN packets (> 30 requests) arrive from one source IP in 5 seconds.</p>
+                                </li>
+                                <li>
+                                    <strong>ICMP Flood Signature:</strong>
+                                    <p>Triggers when > 20 ICMP packets are sent from a single IP within 5 seconds.</p>
+                                </li>
+                                <li>
+                                    <strong>DNS Abuse Signature:</strong>
+                                    <p>Triggers when > 20 DNS queries are received from a single source IP in 5 seconds.</p>
+                                </li>
+                                <li>
+                                    <strong>Brute Force Signature:</strong>
+                                    <p>Triggers when > 10 connection attempts access the same destination port in 10 seconds.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal alert overlay -->
+    <div class="system-modal" id="privilege-warning-modal">
+        <div class="modal-content">
+            <i class="fa-solid fa-triangle-exclamation modal-icon-warn"></i>
+            <h2>Administrative Access Warning</h2>
+            <p>Windows environment detected without <strong>Administrator Privileges</strong> or <strong>Npcap</strong> driver support.</p>
+            <p class="modal-sub">To capture live packet traffic on your hardware card, please run the application command from an Administrator terminal and ensure Npcap is installed. Otherwise, select the <strong>Simulation Adapter</strong> to run synthetic test cycles.</p>
+            <button class="btn-modal-close" onclick="document.getElementById('privilege-warning-modal').classList.remove('active')">Acknowledge</button>
+        </div>
+    </div>
+
+    <!-- Script Entrypoint -->
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

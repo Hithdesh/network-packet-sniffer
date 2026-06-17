@@ -1,0 +1,390 @@
+[2026-06-17 14:59:45,982] [INFO] [MainThread] Initializing Network Packet Sniffer & IDS System...
+[2026-06-17 14:59:45,983] [INFO] [MainThread] Created database directory: C:\Users\hithd\.antigravity-ide\network_ids\database
+[2026-06-17 14:59:45,993] [INFO] [MainThread] Database initialized successfully.
+[2026-06-17 14:59:46,103] [INFO] [DetectionEngine] Detection thread worker started.
+[2026-06-17 14:59:46,103] [INFO] [DBWriter] Database writer thread started.
+[2026-06-17 14:59:46,104] [INFO] [SocketIOBroadcaster] SocketIO broadcaster thread started.
+[2026-06-17 14:59:46,104] [INFO] [MainThread] SOC App is running. Connect to: http://127.0.0.1:5000
+[2026-06-17 14:59:46,104] [INFO] [MainThread] Stopping all background processes...
+[2026-06-17 15:00:01,460] [INFO] [MainThread] Initializing Network Packet Sniffer & IDS System...
+[2026-06-17 15:00:01,461] [INFO] [MainThread] Database initialized successfully.
+[2026-06-17 15:00:01,496] [INFO] [DetectionEngine] Detection thread worker started.
+[2026-06-17 15:00:01,496] [INFO] [DBWriter] Database writer thread started.
+[2026-06-17 15:00:01,497] [INFO] [SocketIOBroadcaster] SocketIO broadcaster thread started.
+[2026-06-17 15:00:01,497] [INFO] [MainThread] SOC App is running. Connect to: http://127.0.0.1:5000
+[2026-06-17 15:13:46,426] [INFO] [TrafficSimulation] Mock network traffic simulation thread started.
+[2026-06-17 15:13:46,427] [INFO] [Thread-23 (process_request_thread)] Started synthetic capture in Simulation Mode.
+[2026-06-17 15:13:46,428] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:47,431] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:48,432] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:49,433] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:50,434] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:51,436] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:52,439] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:53,439] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:54,441] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:55,442] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:56,443] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:57,449] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:58,454] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:13:59,455] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:00,457] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:01,458] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:02,461] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:03,462] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:04,465] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:05,466] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:06,471] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:07,479] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:08,481] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:09,483] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:10,485] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:11,486] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:12,489] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:13,490] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:14,491] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:15,493] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:16,495] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:17,496] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:18,497] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:19,499] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:20,502] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:21,505] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:22,506] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:23,507] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:24,509] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:25,511] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:26,513] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:27,514] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:28,515] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:29,516] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:30,518] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:31,518] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:32,520] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:33,521] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:34,522] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:35,523] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:36,524] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:37,526] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:38,527] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:39,528] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:40,530] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:41,532] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:42,533] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:43,534] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:44,535] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:45,535] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:14:45,536] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:46,537] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:47,539] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:48,542] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:49,544] [INFO] [TrafficSimulation] Mock network traffic simulation thread stopped.
+[2026-06-17 15:14:49,544] [INFO] [Thread-47 (process_request_thread)] Simulation capture stopped.
+[2026-06-17 15:14:52,565] [INFO] [TrafficSimulation] Mock network traffic simulation thread started.
+[2026-06-17 15:14:52,566] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:52,566] [INFO] [Thread-48 (process_request_thread)] Started synthetic capture in Simulation Mode.
+[2026-06-17 15:14:53,569] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:54,571] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:55,572] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:56,574] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:57,575] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:58,577] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:14:59,578] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:00,579] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:01,580] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:02,582] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:03,583] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:04,584] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:05,586] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:06,588] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:07,590] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:08,592] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:09,593] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:10,594] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:11,595] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:12,596] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:13,598] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:14,599] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:15,600] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:16,602] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:17,603] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:18,604] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:19,605] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:20,606] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:21,607] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:22,609] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:23,610] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:24,612] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:25,613] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:26,614] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:27,615] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:28,617] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:29,618] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:30,619] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:31,620] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:32,622] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:33,623] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:34,625] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:35,626] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:36,627] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:37,628] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:38,630] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:39,631] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:40,634] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:41,635] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:42,637] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:43,638] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:44,639] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:45,641] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:46,643] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:47,645] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:48,646] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:49,647] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:50,648] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:51,649] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:15:51,649] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:52,651] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:53,652] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:54,653] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:55,655] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:56,656] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:57,657] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:58,658] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:15:59,660] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:00,661] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:01,663] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:02,664] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:03,666] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:04,667] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:05,668] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:06,669] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:07,671] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:08,672] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:09,674] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:10,675] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:11,676] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:12,677] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:13,678] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:14,680] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:15,681] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:16,683] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:17,685] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:18,686] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:19,687] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:20,688] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:21,689] [INFO] [TrafficSimulation] Simulating SYN Flood attack...
+[2026-06-17 15:16:21,689] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:22,691] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:23,692] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:24,694] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:25,696] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:26,697] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:27,699] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:28,700] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:29,701] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:30,703] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:31,704] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:16:31,704] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:32,707] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:33,708] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:34,709] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:35,710] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:36,711] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:37,712] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:38,713] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:39,716] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:40,717] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:41,718] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:42,719] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:43,719] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:44,720] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:45,721] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:46,722] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:47,723] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:48,726] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:49,727] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:50,729] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:51,730] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:16:51,730] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:52,731] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:53,732] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:54,734] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:55,736] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:56,739] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:57,739] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:58,740] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:16:59,741] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:00,742] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:01,743] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:02,744] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:03,746] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:04,747] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:05,748] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:06,750] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:07,751] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:08,753] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:09,754] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:10,755] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:11,756] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:12,759] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:13,760] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:14,761] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:15,762] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:16,763] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:17,765] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:18,767] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:19,768] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:20,769] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:21,771] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:22,771] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:23,772] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:24,773] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:25,775] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:26,776] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:27,778] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:28,779] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:29,779] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:30,780] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:31,782] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:32,783] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:33,784] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:34,786] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:35,788] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:36,789] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:37,790] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:38,791] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:39,793] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:40,794] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:41,795] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:42,831] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:43,836] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:44,837] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:45,838] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:46,839] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:47,840] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:48,842] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:49,844] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:50,846] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:51,848] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:17:51,849] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:52,849] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:53,851] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:54,852] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:55,857] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:56,859] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:57,860] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:58,862] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:17:59,863] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:00,864] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:01,867] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:02,869] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:03,870] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:04,872] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:05,873] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:06,875] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:07,875] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:08,878] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:09,880] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:10,881] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:11,882] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:18:11,882] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:12,884] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:13,885] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:14,891] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:15,893] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:16,894] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:17,896] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:18,897] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:19,899] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:20,902] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:21,903] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:22,904] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:23,906] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:24,907] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:25,908] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:26,910] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:27,912] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:28,914] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:29,915] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:30,916] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:31,917] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:32,918] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:33,919] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:34,921] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:35,922] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:36,923] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:37,924] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:38,925] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:39,926] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:40,927] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:41,928] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:42,928] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:43,929] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:44,931] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:45,932] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:46,933] [ERROR] [TrafficSimulation] Error in traffic simulation: name 'datetime' is not defined
+[2026-06-17 15:18:52,919] [INFO] [MainThread] Initializing Network Packet Sniffer & IDS System...
+[2026-06-17 15:18:52,921] [INFO] [MainThread] Database initialized successfully.
+[2026-06-17 15:18:52,982] [INFO] [DetectionEngine] Detection thread worker started.
+[2026-06-17 15:18:52,982] [INFO] [DBWriter] Database writer thread started.
+[2026-06-17 15:18:52,982] [INFO] [SocketIOBroadcaster] SocketIO broadcaster thread started.
+[2026-06-17 15:18:52,982] [INFO] [MainThread] SOC App is running. Connect to: http://127.0.0.1:5000
+[2026-06-17 15:26:20,818] [INFO] [TrafficSimulation] Mock network traffic simulation thread started.
+[2026-06-17 15:26:20,819] [INFO] [Thread-36 (process_request_thread)] Started synthetic capture in Simulation Mode.
+[2026-06-17 15:26:42,175] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:26:42,889] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 185.220.101.4
+[2026-06-17 15:26:53,468] [INFO] [TrafficSimulation] Simulating SYN Flood attack...
+[2026-06-17 15:26:53,591] [WARNING] [DetectionEngine] IDS Alert Triggered: Brute Force - Src: 185.220.101.99
+[2026-06-17 15:26:53,816] [WARNING] [DetectionEngine] IDS Alert Triggered: SYN Flood - Src: 185.220.101.99
+[2026-06-17 15:26:57,515] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:26:57,751] [WARNING] [DetectionEngine] IDS Alert Triggered: ICMP Flood - Src: 192.168.1.15
+[2026-06-17 15:27:04,859] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:27:05,468] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 10.0.0.12
+[2026-06-17 15:27:27,423] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:27:28,066] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 192.168.1.10
+[2026-06-17 15:27:35,902] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:27:36,128] [WARNING] [DetectionEngine] IDS Alert Triggered: ICMP Flood - Src: 8.8.8.8
+[2026-06-17 15:27:50,922] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:27:51,585] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 192.168.1.10
+[2026-06-17 15:28:02,266] [INFO] [TrafficSimulation] Simulating SYN Flood attack...
+[2026-06-17 15:28:02,374] [WARNING] [DetectionEngine] IDS Alert Triggered: Brute Force - Src: 185.220.101.99
+[2026-06-17 15:28:02,622] [WARNING] [DetectionEngine] IDS Alert Triggered: SYN Flood - Src: 185.220.101.99
+[2026-06-17 15:28:11,740] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:28:12,351] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 192.168.1.15
+[2026-06-17 15:28:32,137] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:28:32,838] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 192.168.1.15
+[2026-06-17 15:28:47,307] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:28:47,518] [WARNING] [DetectionEngine] IDS Alert Triggered: ICMP Flood - Src: 192.168.1.15
+[2026-06-17 15:28:54,520] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:28:55,230] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 192.168.1.10
+[2026-06-17 15:29:05,986] [INFO] [TrafficSimulation] Simulating SYN Flood attack...
+[2026-06-17 15:29:06,095] [WARNING] [DetectionEngine] IDS Alert Triggered: Brute Force - Src: 185.220.101.99
+[2026-06-17 15:29:06,306] [WARNING] [DetectionEngine] IDS Alert Triggered: SYN Flood - Src: 185.220.101.99
+[2026-06-17 15:29:17,142] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:29:17,803] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 10.0.0.12
+[2026-06-17 15:29:24,547] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:29:24,750] [WARNING] [DetectionEngine] IDS Alert Triggered: ICMP Flood - Src: 192.168.1.15
+[2026-06-17 15:29:38,513] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:29:39,276] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 10.0.0.4
+[2026-06-17 15:30:00,583] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:30:01,383] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 185.220.101.4
+[2026-06-17 15:30:12,487] [INFO] [TrafficSimulation] Simulating SYN Flood attack...
+[2026-06-17 15:30:12,598] [WARNING] [DetectionEngine] IDS Alert Triggered: Brute Force - Src: 185.220.101.99
+[2026-06-17 15:30:12,817] [WARNING] [DetectionEngine] IDS Alert Triggered: SYN Flood - Src: 185.220.101.99
+[2026-06-17 15:30:24,793] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:30:25,454] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 8.8.8.8
+[2026-06-17 15:30:39,345] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:30:39,563] [WARNING] [DetectionEngine] IDS Alert Triggered: ICMP Flood - Src: 10.0.0.4
+[2026-06-17 15:30:46,848] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:30:47,622] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 8.8.8.8
+[2026-06-17 15:31:07,814] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:31:08,526] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 10.0.0.12
+[2026-06-17 15:31:16,100] [INFO] [TrafficSimulation] Simulating ICMP Flood attack...
+[2026-06-17 15:31:16,335] [WARNING] [DetectionEngine] IDS Alert Triggered: ICMP Flood - Src: 192.168.1.10
+[2026-06-17 15:31:20,602] [INFO] [TrafficSimulation] Simulating SYN Flood attack...
+[2026-06-17 15:31:20,733] [WARNING] [DetectionEngine] IDS Alert Triggered: Brute Force - Src: 185.220.101.99
+[2026-06-17 15:31:20,960] [WARNING] [DetectionEngine] IDS Alert Triggered: SYN Flood - Src: 185.220.101.99
+[2026-06-17 15:31:31,314] [INFO] [TrafficSimulation] Simulating Port Scan attack...
+[2026-06-17 15:31:31,974] [WARNING] [DetectionEngine] IDS Alert Triggered: Port Scan - Src: 8.8.8.8
+[2026-06-17 15:31:42,462] [INFO] [TrafficSimulation] Mock network traffic simulation thread stopped.
+[2026-06-17 15:31:42,463] [INFO] [Thread-79 (process_request_thread)] Simulation capture stopped.
